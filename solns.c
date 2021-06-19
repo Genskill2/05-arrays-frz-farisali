@@ -3,8 +3,8 @@
 
 int max(int str[],int num)
 {
-  int i,mx=0;
-  for (int i=0;i<num;i++)
+  int i,mx=str[0];
+  for (int i=1;i<num;i++)
   {
     if (str[i]>mx)
       mx=str[i];
