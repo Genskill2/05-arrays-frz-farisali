@@ -1,10 +1,9 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
-#include <assert.h>
 
 int max(int str[],int num)
 {
-  int mx=0;
+  int i,mx=0;
   for (int i=0;i<num;i++)
   {
     if (str[i]>mx)
@@ -15,7 +14,7 @@ int max(int str[],int num)
 
 int min(int str[],int num)
 {
-  int mn=str[0];
+  int i,mn=str[0];
   for (int i=0;i<num;i++)
   {
     if (min>str[i])
@@ -26,6 +25,7 @@ int min(int str[],int num)
 
 float average(int str[],int num)
 {
+  int i;
   float sum=0,avg=0;
   for (int i=o;i<num;i++)
   {
@@ -59,7 +59,7 @@ int mode(int str[], int num)
 
 int factors( int ftr, int rt[])
 {
-  int hfr=ftr/2,j=0;
+  int i,hfr=ftr/2,j=0;
   for (int i=2; i<hfr+1;)
   {
     if(ftr%i==0)
