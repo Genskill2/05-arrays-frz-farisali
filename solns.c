@@ -39,11 +39,11 @@ int mode(int str[], int num)
 {
   int mxV=0, mxC=0, i,j;
   
-  for (i=0; i<n; ++i)
+  for (i=0; i<num; ++i)
   {
     int ct=0;
     
-    for (j=0;j<n;++j)
+    for (j=0;j<num;++j)
     {
       if (str[j]==str[i])
         ++ct;
