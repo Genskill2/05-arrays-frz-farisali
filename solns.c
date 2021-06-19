@@ -1,5 +1,6 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
+#include <assert.h>
 
 int max(int str[],int num)
 {
